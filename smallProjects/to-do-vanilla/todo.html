@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <main>
+        <h1>Mi lista de tareas</h1>
+
+        <section id="formulario">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Ingresa la tarea">
+                <button type="submit">Crear</button>
+            </form>
+        </section>
+
+        <section id="tareas">
+            <h2>
+                Tareas
+                <span id="task-count"></span>
+
+            </h2>
+            <ul id="task-list">
+                <!-- Aquí se agregarán dinámicamente las tareas -->
+            </ul>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
